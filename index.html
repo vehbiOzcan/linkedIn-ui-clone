@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@1,600&family=Space+Grotesk:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <style>
+
+    </style>
+
+    <title>Linkedin</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="nav py-2">
+                    <div class="container">
+                        <div class="d-flex align-items-center">
+
+                            <img src="assets/logo.svg">
+
+                            <div class="d-none d-md-block flex-grow-1">
+                                <div id="search-bar"
+                                    class="d-flex align-items-center rounded-3  bg-linkedin-light-grey px-2 ms-1"
+                                    style="height: 35px; width: 250px;">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                    <input id="search-inp" type="text" class="ms-2 border-0 bg-linkedin-light-grey"
+                                        placeholder="Arama yap">
+                                </div>
+                            </div>
+
+                            <div class="nav d-flex border-right-light">
+                                <a href="#" class="d-flex flex-column align-items-center mx-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                        data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24"
+                                        height="24" focusable="false">
+                                        <path
+                                            d="M23 9v2h-2v7a3 3 0 01-3 3h-4v-6h-4v6H6a3 3 0 01-3-3v-7H1V9l11-7 5 3.18V2h3v5.09z">
+                                        </path>
+                                    </svg>
+                                    <span class="text-xxs">Ana Sayfa</span>
+                                </a>
+
+                                <a href="#" class="d-flex flex-column align-items-center mx-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                        data-supported-dps="24x24" fill="#00000099" class="mercado-match" width="24"
+                                        height="24" focusable="false">
+                                        <path
+                                            d="M12 16v6H3v-6a3 3 0 013-3h3a3 3 0 013 3zm5.5-3A3.5 3.5 0 1014 9.5a3.5 3.5 0 003.5 3.5zm1 2h-2a2.5 2.5 0 00-2.5 2.5V22h7v-4.5a2.5 2.5 0 00-2.5-2.5zM7.5 2A4.5 4.5 0 1012 6.5 4.49 4.49 0 007.5 2z">
+                                        </path>
+                                    </svg>
+                                    <span class="text-xxs">Ağım</span>
+
+                                </a>
+
+                                <a href="#" class="d-flex flex-column align-items-center mx-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                        data-supported-dps="24x24" fill="#00000099" class="mercado-match" width="24"
+                                        height="24" focusable="false">
+                                        <path
+                                            d="M17 6V5a3 3 0 00-3-3h-4a3 3 0 00-3 3v1H2v4a3 3 0 003 3h14a3 3 0 003-3V6zM9 5a1 1 0 011-1h4a1 1 0 011 1v1H9zm10 9a4 4 0 003-1.38V17a3 3 0 01-3 3H5a3 3 0 01-3-3v-4.38A4 4 0 005 14z">
+                                        </path>
+                                    </svg>
+                                    <span class="text-xxs">İş İlanları</span>
+                                </a>
+
+                                <a href="#" class="d-flex flex-column align-items-center mx-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                        data-supported-dps="24x24" fill="#00000099" class="mercado-match" width="24"
+                                        height="24" focusable="false">
+                                        <path
+                                            d="M16 4H8a7 7 0 000 14h4v4l8.16-5.39A6.78 6.78 0 0023 11a7 7 0 00-7-7zm-8 8.25A1.25 1.25 0 119.25 11 1.25 1.25 0 018 12.25zm4 0A1.25 1.25 0 1113.25 11 1.25 1.25 0 0112 12.25zm4 0A1.25 1.25 0 1117.25 11 1.25 1.25 0 0116 12.25z">
+                                        </path>
+                                    </svg>
+                                    <span class="text-xxs">Mesajlaşma</span>
+                                </a>
+
+                                <a href="#" class="d-flex flex-column align-items-center mx-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                        data-supported-dps="24x24" fill="#00000099" class="mercado-match" width="24"
+                                        height="24" focusable="false">
+                                        <path
+                                            d="M22 19h-8.28a2 2 0 11-3.44 0H2v-1a4.52 4.52 0 011.17-2.83l1-1.17h15.7l1 1.17A4.42 4.42 0 0122 18zM18.21 7.44A6.27 6.27 0 0012 2a6.27 6.27 0 00-6.21 5.44L5 13h14z">
+                                        </path>
+                                    </svg>
+                                    <span class="text-xxs">Bildirimler</span>
+                                </a>
+
+                                <a href="#" class="d-flex flex-column align-items-center mx-2 me-4">
+                                    <img src="assets/pp.jpg" class="rounded-circle" style="width: 24px; height: 24px;">
+                                    <span class="text-xxs">Ben
+                                        <span>
+                                            <i class="fa-solid fa-caret-down" style="color: #00000099;"></i>
+                                        </span>
+                                    </span>
+                            </div>
+                            </a>
+
+                            <div class="d-flex align justify-content-center align-items-center">
+                                <a href="#" class="d-flex flex-column align-items-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                        data-supported-dps="24x24" fill="#00000099" class="mercado-match" width="24"
+                                        height="24" focusable="false">
+                                        <path
+                                            d="M3 3h4v4H3zm7 4h4V3h-4zm7-4v4h4V3zM3 14h4v-4H3zm7 0h4v-4h-4zm7 0h4v-4h-4zM3 21h4v-4H3zm7 0h4v-4h-4zm7 0h4v-4h-4z">
+                                        </path>
+                                    </svg>
+                                    <span class="text-xxs">İş için
+                                        <span>
+                                            <i class="fa-solid fa-caret-down" style="color: #00000099;"></i>
+                                        </span>
+                                    </span>
+                                </a>
+                                <a href="#" class="pmr-linkedin-brown text-xxs text-center"
+                                    style="width: 150px;">Ağınızla Daha Akıllıca <br>İletişim Kurun, <br>Premium‘u
+                                    Ücretsiz...</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </header>
+
+    <section class="bg-linkedin-body">
+        <div class="container pt-3">
+            <div class="row">
+                <div class="col-2 p-0 rounded-bottom mb-3">
+                    <div class="bg-white mb-2">
+                        <div>
+                            <div>
+                                <img src="assets/banner.png" class="rounded-top" width="100%" height="40px"
+                                    style="object-fit: cover;">
+                            </div>
+                            <div class="d-flex position-relative" style="height: 72px;">
+                                <img src="assets/pp.jpg" class="img-thumbnail rounded-circle "
+                                    style="width:72px; height: 72px; position: absolute; top: -28px; left: 74px;">
+                            </div>
+                            <div class="text-center border-bottom-light">
+                                <a href="#">Vehbi Özcan</a>
+                                <p class="text-xxs text-center pmr-linkedin-grey mt-1">Student at Konya Technical
+                                    University
+                                    - Computer Engineering</p>
+                            </div>
+
+                            <div class="mt-3">
+                                <a class="d-flex justify-content-between px-2 text-xxs fw-300" href="#">
+                                    <span class="pmr-linkedin-grey">Profili görüntüleyenler</span>
+                                    <span class="pmr-linkblue">40</span>
+                                </a>
+                            </div>
+                            <div class="mt-2 pb-3 border-bottom-light">
+                                <a class="d-flex flex-column justify-content-between px-2 text-xxs fw-300" href="#">
+                                    <div class="d-flex justify-content-between">
+                                        <span class="pmr-linkedin-grey">bağlantı</span>
+                                        <span class="pmr-linkblue">554</span>
+                                    </div>
+                                    <div>İletişim ağınızı yönetin</div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="mt-2 py-2 border-bottom-light">
+                            <a class="d-flex flex-column justify-content-between px-2 text-xxs" href="#">
+                                <div>
+                                    <span class="pmr-linkedin-grey">Özel araç ve içgörülere erişin</span>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <i class="fa-solid fa-gem" style="color: #ffb23f;"></i>
+                                    <span class="fw-400 ms-1">0 TRY ile Premium'u deneyin</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="px-2 py-2">
+                            <a href="#">
+                                <span>
+                                    <i class="fa-solid fa-bookmark"></i>
+                                </span>
+                                <span class="ms-2">Öğelerim</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-3 py-3">  
+                        <div>
+                            <h6 class="text-xxs fw-200 ms-2">En Yeni</h6>
+                            <div class="d-flex flex-column">
+                                <a href="#" class="px-2 text-xxs fw-300">
+                                    <i class="fa-solid fa-people-group"></i>
+                                    <span class="pmr-linkedin-grey ps-1">Full Stack Developer</span>
+                                </a>
+    
+                                <a href="#" class="px-2 text-xxs fw-300">
+                                    <i class="fa-solid fa-people-group"></i>
+                                    <span class="pmr-linkedin-grey ps-1">React Developer</span>
+                                </a>
+    
+                                <a href="#" class="px-2 text-xxs fw-300">
+                                    <i class="fa-solid fa-people-group"></i>
+                                    <span class="pmr-linkedin-grey ps-1">Java Developers Community</span>
+                                </a>
+    
+                            </div>
+                        </div>
+
+                        <div class="mt-2 border-bottom-light">
+                            <a href="#" class="text-xxs fw-200 ms-2 pmr-linkblue">Gruplar</a>
+                            <div class="d-flex flex-column mt-1">
+                                <a href="#" class="px-2 text-xxs fw-300">
+                                    <i class="fa-solid fa-people-group"></i>
+                                    <span class="pmr-linkedin-grey ps-1">Full Stack Developer</span>
+                                </a>
+    
+                                <a href="#" class="px-2 text-xxs fw-300">
+                                    <i class="fa-solid fa-people-group"></i>
+                                    <span class="pmr-linkedin-grey ps-1">React Developer</span>
+                                </a>
+    
+                                <a href="#" class="px-2 text-xxs fw-300">
+                                    <i class="fa-solid fa-people-group"></i>
+                                    <span class="pmr-linkedin-grey ps-1">Java Developers Community</span>
+                                </a>
+                                
+                                <a href="#" class="px-2 text-xxs fw-300 text-center mt-1">
+                                    <span class="pmr-linkedin-grey ps-1">Daha fazla göster</span>
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </a>
+
+                               <div >
+                                <div href="#" class="d-flex justify-content-between px-2 text-xxs fw-300 text-center mt-3">
+                                    <a href="#" class="pmr-linkblue">Etkinlikler</a>
+                                    <i class="fa-solid fa-plus"></i>
+                                 </div>
+ 
+                                 <a href="#" class="ms-2 text-xxs pmr-linkblue fw-300 mt-1">Takip edilen hashtagler</a>
+                               </div>
+
+                            </div>
+                        </div>
+                        <div class="text-center fw-300 pt-2">
+                            <a href="#" class="pmr-linkedin-grey w-100">Daha Fazla Keşfet</a>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="col-6"></div>
+                <div class="col-3"></div>
+            </div>
+
+        </div>
+        </div>
+    </section>
+</body>
+
+</html>

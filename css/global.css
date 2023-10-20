@@ -1,0 +1,283 @@
+/* Fonts */
+
+.font-blinker-100 {
+    font-family: 'Blinker', sans-serif;
+    font-weight: 100;
+}
+
+.font-blinker-200 {
+    font-family: 'Blinker', sans-serif;
+    font-weight: 200;
+}
+.font-blinker-300 {
+    font-family: 'Blinker', sans-serif;
+    font-weight: 300;
+}
+.font-blinker-400 {
+    font-family: 'Blinker', sans-serif;
+    font-weight: 400;
+}
+
+.font-blink {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+}
+.font-blink-100 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+}
+.font-blink-200 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+.font-blink-300 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+
+.font-sansserif-400 {
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.font-sansserif-600 {
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.font-sansserif-800 {
+    font-family: sans-serif;
+    font-weight: 800;
+}
+.font-lsp-xs {
+    letter-spacing: 0.05rem;
+}
+
+.font-lsp-s {
+    letter-spacing: 0.1rem;
+}
+
+.font-lsp-m {
+    letter-spacing: 0.15rem;
+}
+
+.font-lsp-l {
+    letter-spacing: 0.2rem;
+}
+
+.font-lsp-xl {
+    letter-spacing: 0.25rem;
+}
+
+.fw-100{
+    font-weight: 300;
+}
+.fw-200{
+    font-weight: 400;
+}
+.fw-300{
+    font-weight: 500;
+}
+.fw-400{
+    font-weight: 600;
+}
+.fw-500{
+    font-weight: 700;
+}
+.fw-600{
+    font-weight: 800;
+}
+
+.lh-1 {
+    line-height: 1px;
+}
+
+/* Text */
+
+.text-xxs {
+    font-size: 0.75rem;
+}
+
+.text-xs {
+    font-size: 0.88rem;
+}
+
+.text-s {
+    font-size: 1.25rem;
+}
+
+.text-ms {
+    font-size: 1.5rem;
+}
+
+.text-m {
+    font-size: 1.75rem;
+}
+
+.text-ml {
+    font-size: 2.25rem;
+}
+
+.text-l {
+    font-size: 2.5rem;
+}
+
+.text-xl {
+    font-size: 2.75rem;
+}
+
+.text-xxl {
+    font-size: 3.25rem;
+}
+
+.text-3xl {
+    font-size: 4rem;
+}
+
+.text-4xl {
+    font-size: 5.5rem;
+}
+
+/* Colors */
+
+.pmr-pale-soft {
+    color: #f0f0f8;
+}
+
+.pmr-dark-grey {
+    color: #343f52;
+}
+
+.pmr-white-border {
+    color: #ebedf3;
+}
+
+.pmr-light {
+    color: #fcfcfd;
+}
+
+.pmr-body {
+    color: #60697b;
+}
+
+.pmr-secondary {
+    color: #aab0bc;
+}
+
+.pmr-light-grey {
+    color: #F2F2F2;
+}
+
+.pmr-blue {
+    color: #3f78e0;
+}
+
+.pmr-linkblue {
+    color: #0095f6;
+}
+
+.pmr-yellow {
+    color: #fcc032;
+}
+
+.pmr-linkedin-brown {
+    color: #915907;
+}
+
+.pmr-linkedin-grey {
+    color: #6b6b6b;
+}
+
+.pmr-linkedin-black {
+    color: #212529;
+}
+
+.pmr-linkedin-black-2 {
+    color: #242424;
+}
+
+
+/*  Backgrounds */
+
+.bg-linkedin-black {
+    background-color: #000000e6;
+}
+
+.bg-linkedin-black-2 {
+    background-color: #00000047;
+}
+
+.bg-likedin-blue {
+    background-color: #0a66c2;
+}
+
+.bg-linkedin-light-grey {
+    background-color: #edf3f8;
+}
+
+.bg-linkedin-white {
+    background-color: rgba(230, 230, 230, 1);
+}
+
+.bg-linkedin-blue {
+    background-color: rgb(68, 121, 255);
+}
+
+.bg-linkedin-light-blue {
+    background-color: #bcdfff;
+}
+
+.bg-pmr-secondary {
+    background-color: #aab0bc;
+}
+
+.bg-pmr-light-grey {
+    background-color: #F2F2F2;
+}
+
+.bg-linkedin-body {
+    background-color:#f4f2ee ;
+}
+
+
+/*  Border  */
+.border-dark {
+    border: 1px solid rgba(25, 25, 25, 1);
+}
+
+.border-bottom-dark {
+    border-bottom: 1px solid rgba(25, 25, 25, 1);
+}
+
+.border-bottom-dark-2 {
+    border-bottom: 1px solid rgba(41, 41, 41, 1);
+}
+
+.border-bottom-light {
+    border-bottom: 1px solid rgba(230, 230, 230, 1);
+}
+
+.border-bottom-white {
+    border-bottom: 1px solid rgb(242, 242, 242);
+}
+.border-light {
+    border: 1px solid rgba(230, 230, 230, 1);
+}
+
+.border-left-light {
+    border-left: 1px solid rgba(230, 230, 230, 1);
+}
+
+.border-right-light {
+    border-right: 1px solid rgba(230, 230, 230, 1);
+}
+
+
+/* Aside */
+
+.aside {
+    position: sticky;
+    /* max-width: 416px;
+    min-width: 300px; */
+    top: 100px;
+}

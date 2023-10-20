@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+input:focus {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    color: #212529 ;
+}
+
+a:hover {
+    color: #252525 ;
+    /* text-decoration: underline;*/
+} 
+
+.article-content {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media screen and (max-width:730px) {
+    .article-content {
+        display: none;
+        
+    }
+}
