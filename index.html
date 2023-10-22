@@ -26,113 +26,117 @@
 
 <body>
 
-    <header>
+    <header style="margin-bottom: 70px;">
         <div class="container-fluid">
             <div class="row">
+                <div class="position-fixed bg-white" style="z-index: 2;">
+                    <div class="nav py-2">
+                        <div class="container">
+                            <div class="d-flex justify-content-center align-items-center">
 
-                <div class="nav py-2">
-                    <div class="container">
-                        <div class="d-flex align-items-center">
+                                <img src="assets/logo.svg">
 
-                            <img src="assets/logo.svg">
-
-                            <div class="d-none d-md-block flex-grow-1">
-                                <div id="search-bar"
-                                    class="d-flex align-items-center rounded-3  bg-linkedin-light-grey px-2 ms-1"
-                                    style="height: 35px; width: 250px;">
-                                    <i class="fa-solid fa-magnifying-glass"></i>
-                                    <input id="search-inp" type="text" class="ms-2 border-0 bg-linkedin-light-grey"
-                                        placeholder="Arama yap">
+                                <div class="d-none d-md-block">
+                                    <div id="search-bar"
+                                        class="d-flex align-items-center rounded-3  bg-linkedin-light-grey px-2 ms-1"
+                                        style="height: 35px; width: 250px;">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                        <input id="search-inp" type="text" class="ms-2 border-0 bg-linkedin-light-grey"
+                                            placeholder="Arama yap">
+                                    </div>
                                 </div>
-                            </div>
 
-                            <div class="nav d-flex border-right-light">
-                                <a href="#" class="d-flex flex-column align-items-center mx-2">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                        data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24"
-                                        height="24" focusable="false">
-                                        <path
-                                            d="M23 9v2h-2v7a3 3 0 01-3 3h-4v-6h-4v6H6a3 3 0 01-3-3v-7H1V9l11-7 5 3.18V2h3v5.09z">
-                                        </path>
-                                    </svg>
-                                    <span class="text-xxs">Ana Sayfa</span>
-                                </a>
+                                <div class="nav d-flex   justify-content-evenly justify-content-lg-end  flex-grow-1">
+                                    <a href="#" class="d-flex flex-column align-items-center mx-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                            data-supported-dps="24x24" fill="currentColor" class="mercado-match"
+                                            width="24" height="24" focusable="false">
+                                            <path
+                                                d="M23 9v2h-2v7a3 3 0 01-3 3h-4v-6h-4v6H6a3 3 0 01-3-3v-7H1V9l11-7 5 3.18V2h3v5.09z">
+                                            </path>
+                                        </svg>
+                                        <span class="d-none d-lg-inline text-xxs">Ana Sayfa</span>
+                                    </a>
 
-                                <a href="#" class="d-flex flex-column align-items-center mx-2">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                        data-supported-dps="24x24" fill="#00000099" class="mercado-match" width="24"
-                                        height="24" focusable="false">
-                                        <path
-                                            d="M12 16v6H3v-6a3 3 0 013-3h3a3 3 0 013 3zm5.5-3A3.5 3.5 0 1014 9.5a3.5 3.5 0 003.5 3.5zm1 2h-2a2.5 2.5 0 00-2.5 2.5V22h7v-4.5a2.5 2.5 0 00-2.5-2.5zM7.5 2A4.5 4.5 0 1012 6.5 4.49 4.49 0 007.5 2z">
-                                        </path>
-                                    </svg>
-                                    <span class="text-xxs">Ağım</span>
+                                    <a href="#" class="d-flex flex-column align-items-center mx-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                            data-supported-dps="24x24" fill="#00000099" class="mercado-match" width="24"
+                                            height="24" focusable="false">
+                                            <path
+                                                d="M12 16v6H3v-6a3 3 0 013-3h3a3 3 0 013 3zm5.5-3A3.5 3.5 0 1014 9.5a3.5 3.5 0 003.5 3.5zm1 2h-2a2.5 2.5 0 00-2.5 2.5V22h7v-4.5a2.5 2.5 0 00-2.5-2.5zM7.5 2A4.5 4.5 0 1012 6.5 4.49 4.49 0 007.5 2z">
+                                            </path>
+                                        </svg>
+                                        <span class="d-none d-lg-inline text-xxs">Ağım</span>
 
-                                </a>
+                                    </a>
 
-                                <a href="#" class="d-flex flex-column align-items-center mx-2">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                        data-supported-dps="24x24" fill="#00000099" class="mercado-match" width="24"
-                                        height="24" focusable="false">
-                                        <path
-                                            d="M17 6V5a3 3 0 00-3-3h-4a3 3 0 00-3 3v1H2v4a3 3 0 003 3h14a3 3 0 003-3V6zM9 5a1 1 0 011-1h4a1 1 0 011 1v1H9zm10 9a4 4 0 003-1.38V17a3 3 0 01-3 3H5a3 3 0 01-3-3v-4.38A4 4 0 005 14z">
-                                        </path>
-                                    </svg>
-                                    <span class="text-xxs">İş İlanları</span>
-                                </a>
+                                    <a href="#" class="d-flex flex-column align-items-center mx-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                            data-supported-dps="24x24" fill="#00000099" class="mercado-match" width="24"
+                                            height="24" focusable="false">
+                                            <path
+                                                d="M17 6V5a3 3 0 00-3-3h-4a3 3 0 00-3 3v1H2v4a3 3 0 003 3h14a3 3 0 003-3V6zM9 5a1 1 0 011-1h4a1 1 0 011 1v1H9zm10 9a4 4 0 003-1.38V17a3 3 0 01-3 3H5a3 3 0 01-3-3v-4.38A4 4 0 005 14z">
+                                            </path>
+                                        </svg>
+                                        <span class="d-none d-lg-inline text-xxs">İş İlanları</span>
+                                    </a>
 
-                                <a href="#" class="d-flex flex-column align-items-center mx-2">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                        data-supported-dps="24x24" fill="#00000099" class="mercado-match" width="24"
-                                        height="24" focusable="false">
-                                        <path
-                                            d="M16 4H8a7 7 0 000 14h4v4l8.16-5.39A6.78 6.78 0 0023 11a7 7 0 00-7-7zm-8 8.25A1.25 1.25 0 119.25 11 1.25 1.25 0 018 12.25zm4 0A1.25 1.25 0 1113.25 11 1.25 1.25 0 0112 12.25zm4 0A1.25 1.25 0 1117.25 11 1.25 1.25 0 0116 12.25z">
-                                        </path>
-                                    </svg>
-                                    <span class="text-xxs">Mesajlaşma</span>
-                                </a>
+                                    <a href="#" class="d-flex flex-column align-items-center mx-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                            data-supported-dps="24x24" fill="#00000099" class="mercado-match" width="24"
+                                            height="24" focusable="false">
+                                            <path
+                                                d="M16 4H8a7 7 0 000 14h4v4l8.16-5.39A6.78 6.78 0 0023 11a7 7 0 00-7-7zm-8 8.25A1.25 1.25 0 119.25 11 1.25 1.25 0 018 12.25zm4 0A1.25 1.25 0 1113.25 11 1.25 1.25 0 0112 12.25zm4 0A1.25 1.25 0 1117.25 11 1.25 1.25 0 0116 12.25z">
+                                            </path>
+                                        </svg>
+                                        <span class="d-none d-lg-inline text-xxs">Mesajlaşma</span>
+                                    </a>
 
-                                <a href="#" class="d-flex flex-column align-items-center mx-2">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                        data-supported-dps="24x24" fill="#00000099" class="mercado-match" width="24"
-                                        height="24" focusable="false">
-                                        <path
-                                            d="M22 19h-8.28a2 2 0 11-3.44 0H2v-1a4.52 4.52 0 011.17-2.83l1-1.17h15.7l1 1.17A4.42 4.42 0 0122 18zM18.21 7.44A6.27 6.27 0 0012 2a6.27 6.27 0 00-6.21 5.44L5 13h14z">
-                                        </path>
-                                    </svg>
-                                    <span class="text-xxs">Bildirimler</span>
-                                </a>
+                                    <a href="#" class="d-flex flex-column align-items-center mx-2">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                            data-supported-dps="24x24" fill="#00000099" class="mercado-match" width="24"
+                                            height="24" focusable="false">
+                                            <path
+                                                d="M22 19h-8.28a2 2 0 11-3.44 0H2v-1a4.52 4.52 0 011.17-2.83l1-1.17h15.7l1 1.17A4.42 4.42 0 0122 18zM18.21 7.44A6.27 6.27 0 0012 2a6.27 6.27 0 00-6.21 5.44L5 13h14z">
+                                            </path>
+                                        </svg>
+                                        <span class="d-none d-lg-inline text-xxs">Bildirimler</span>
+                                    </a>
 
-                                <a href="#" class="d-flex flex-column align-items-center mx-2 me-4">
-                                    <img src="assets/pp.jpg" class="rounded-circle" style="width: 24px; height: 24px;">
-                                    <span class="text-xxs">Ben
-                                        <span>
-                                            <i class="fa-solid fa-caret-down" style="color: #00000099;"></i>
+                                    <a href="#" class="d-flex flex-column align-items-center mx-2">
+                                        <img src="assets/pp.jpg" class="rounded-circle"
+                                            style="width: 24px; height: 24px;">
+                                        <span class="d-none d-lg-inline text-xxs ">Ben
+                                            <span>
+                                                <i class="fa-solid fa-caret-down" style="color: #00000099;"></i>
+                                            </span>
                                         </span>
-                                    </span>
-                            </div>
-                            </a>
-
-                            <div class="d-flex align justify-content-center align-items-center">
-                                <a href="#" class="d-flex flex-column align-items-center">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                        data-supported-dps="24x24" fill="#00000099" class="mercado-match" width="24"
-                                        height="24" focusable="false">
-                                        <path
-                                            d="M3 3h4v4H3zm7 4h4V3h-4zm7-4v4h4V3zM3 14h4v-4H3zm7 0h4v-4h-4zm7 0h4v-4h-4zM3 21h4v-4H3zm7 0h4v-4h-4zm7 0h4v-4h-4z">
-                                        </path>
-                                    </svg>
-                                    <span class="text-xxs">İş için
-                                        <span>
-                                            <i class="fa-solid fa-caret-down" style="color: #00000099;"></i>
-                                        </span>
-                                    </span>
+                                </div>
                                 </a>
-                                <a href="#" class="pmr-linkedin-brown text-xxs text-center"
-                                    style="width: 150px;">Ağınızla Daha Akıllıca <br>İletişim Kurun, <br>Premium‘u
-                                    Ücretsiz...</a>
-                            </div>
 
+                                <div
+                                    class="d-none d-lg-flex align justify-content-center align-items-center border-left-light ps-3">
+                                    <a href="#" class="d-none d-lg-flex flex-column align-items-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                            data-supported-dps="24x24" fill="#00000099" class="mercado-match" width="24"
+                                            height="24" focusable="false">
+                                            <path
+                                                d="M3 3h4v4H3zm7 4h4V3h-4zm7-4v4h4V3zM3 14h4v-4H3zm7 0h4v-4h-4zm7 0h4v-4h-4zM3 21h4v-4H3zm7 0h4v-4h-4zm7 0h4v-4h-4z">
+                                            </path>
+                                        </svg>
+                                        <span class="text-xxs">İş için
+                                            <span>
+                                                <i class="fa-solid fa-caret-down" style="color: #00000099;"></i>
+                                            </span>
+                                        </span>
+                                    </a>
+                                    <a href="#"
+                                        class=" pmr-linkedin-brown text-xxs text-center text-decoration-underline"
+                                        style="width: 150px;">Ağınızla Daha Akıllıca <br>İletişim Kurun, <br>Premium‘u
+                                        Ücretsiz...</a>
+                                </div>
+
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -143,10 +147,11 @@
     </header>
 
     <section class="bg-linkedin-body">
-        <div class="container pt-3">
-            <div class="row">
-                <div class="col-2 p-0 rounded-bottom mb-3">
-                    <div class="bg-white mb-2">
+        <div class="container pt-3 px-4">
+            <div class="row justify-content-center">
+                <aside class="col-4 col-lg-2 p-0 rounded-bottom mb-3">
+                    <div
+                        class="d-none d-md-block bg-white mb-2 border-bottom-light border-left-light border-right-light">
                         <div>
                             <div>
                                 <img src="assets/banner.png" class="rounded-top" width="100%" height="40px"
@@ -201,7 +206,8 @@
                         </div>
                     </div>
 
-                    <div class="bg-white rounded-3 py-3">  
+                    <div class=" d-none d-md-block bg-white rounded-3 py-3 "
+                        style="border:1px solid rgba(230, 230, 230, 1)">
                         <div>
                             <h6 class="text-xxs fw-200 ms-2">En Yeni</h6>
                             <div class="d-flex flex-column">
@@ -209,17 +215,17 @@
                                     <i class="fa-solid fa-people-group"></i>
                                     <span class="pmr-linkedin-grey ps-1">Full Stack Developer</span>
                                 </a>
-    
+
                                 <a href="#" class="px-2 text-xxs fw-300">
                                     <i class="fa-solid fa-people-group"></i>
                                     <span class="pmr-linkedin-grey ps-1">React Developer</span>
                                 </a>
-    
+
                                 <a href="#" class="px-2 text-xxs fw-300">
                                     <i class="fa-solid fa-people-group"></i>
                                     <span class="pmr-linkedin-grey ps-1">Java Developers Community</span>
                                 </a>
-    
+
                             </div>
                         </div>
 
@@ -230,30 +236,33 @@
                                     <i class="fa-solid fa-people-group"></i>
                                     <span class="pmr-linkedin-grey ps-1">Full Stack Developer</span>
                                 </a>
-    
+
                                 <a href="#" class="px-2 text-xxs fw-300">
                                     <i class="fa-solid fa-people-group"></i>
                                     <span class="pmr-linkedin-grey ps-1">React Developer</span>
                                 </a>
-    
+
                                 <a href="#" class="px-2 text-xxs fw-300">
                                     <i class="fa-solid fa-people-group"></i>
                                     <span class="pmr-linkedin-grey ps-1">Java Developers Community</span>
                                 </a>
-                                
+
                                 <a href="#" class="px-2 text-xxs fw-300 text-center mt-1">
                                     <span class="pmr-linkedin-grey ps-1">Daha fazla göster</span>
                                     <i class="fa-solid fa-chevron-down"></i>
                                 </a>
 
-                               <div >
-                                <div href="#" class="d-flex justify-content-between px-2 text-xxs fw-300 text-center mt-3">
-                                    <a href="#" class="pmr-linkblue">Etkinlikler</a>
-                                    <i class="fa-solid fa-plus"></i>
-                                 </div>
- 
-                                 <a href="#" class="ms-2 text-xxs pmr-linkblue fw-300 mt-1">Takip edilen hashtagler</a>
-                               </div>
+                                <div>
+                                    <a href="#" class="pmr-linkblue">
+                                        <div
+                                            class="d-flex justify-content-between px-2 text-xxs fw-300 text-center mt-3">
+                                            Etkinlikler
+                                            <i class="fa-solid fa-plus text-black"></i>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="ms-2 text-xxs pmr-linkblue fw-300 mt-1">Takip edilen
+                                        hashtagler</a>
+                                </div>
 
                             </div>
                         </div>
@@ -262,16 +271,562 @@
                         </div>
                     </div>
 
+                </aside>
+
+
+                <div class="col-12 col-md-8 col-lg-6 ps-4">
+                    <section class="bg-white p-3 rounded-3" style="border:1px solid rgba(230, 230, 230, 1)">
+                        <div class="d-flex">
+                            <img src="assets/pp.jpg" class="rounded-circle" style="width: 48px; height: 48px;">
+                            <button class="ms-2 rounded-pill ps-3 flex-grow-1 text-start pmr-linkedin-grey"
+                                style="outline: none; border:1px solid grey ">Gönderi Başlat</button>
+                        </div>
+                        <div class="mt-3">
+                            <div class="d-flex justify-content-around text-s">
+                                <a href="#" class="p-1">
+                                    <i class="fa-solid fa-image fa-flip-horizontal" style="color: #378fe9;"></i>
+                                    <span class="fw-300 text-xs pmr-linkedin-grey">Medya</span>
+                                </a>
+                                <a href="#" class="p-1">
+                                    <i class="fa-solid fa-calendar-days" style="color: #c37d16;"></i>
+                                    <span class="fw-300 text-xs pmr-linkedin-grey">Etkinlik</span>
+                                </a>
+                                <a href="#" class="p-1">
+                                    <i class="fa-regular fa-newspaper" style="color: #e06847;"></i>
+                                    <span class="fw-300 text-xs pmr-linkedin-grey">Yazı yaz</span>
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+
+                    <div class="mt-1 mb-1">
+                        <a href="#" class="">
+                            <div class="d-flex align-items-center">
+                                <hr class="flex-grow-1 d-inline-block m-0">
+                                <span class="text-xxs pmr-linkedin-grey ms-2">Sıralama ölçütü:</span>
+                                <span class="fw-300 text-xxs ms-1">En önemli</span>
+                                <i class="fa-solid fa-caret-down ms-1 text-xxs"></i>
+                            </div>
+                        </a>
+                    </div>
+
+                    <article class="bg-white rounded-3 border-light-linkedin mb-2">
+                        <div class="d-flex px-3 pt-3 pb-2">
+                            <img src="https://picsum.photos/seed/picsum/200/300" class="rounded-circle img-fluid"
+                                style="width: 48px; height: 48px;">
+                            <a href="#" class="ps-2 flex-grow-1">
+                                <div class="d-flex flex-column">
+                                    <div class="text-xxs">
+                                        <span class="text-xs fw-300">Elif Yılmaz</span>
+                                        <span class="text-xs pmr-linkedin-grey">&#8226;</span>
+                                        <span class="text-xs pmr-linkedin-grey">1.</span>
+                                    </div>
+                                    <span class="text-xxs pmr-linkedin-grey">Product Owner | AI Strategist</span>
+                                    <div class="text-xxs">
+                                        <span class="pmr-linkedin-grey">5 gün</span>
+                                        <span class="pmr-linkedin-grey">&#8226;</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <div>
+                                <button class="border-0 bg-transparent">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                        data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24"
+                                        height="24" focusable="false">
+                                        <path
+                                            d="M14 12a2 2 0 11-2-2 2 2 0 012 2zM4 10a2 2 0 102 2 2 2 0 00-2-2zm16 0a2 2 0 102 2 2 2 0 00-2-2z">
+                                        </path>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="px-3">
+                            <p class="text-xs">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti quam eum repellat
+                                sit. Doloribus placeat cumque tenetur rem quaerat cupiditate dolore perspiciatis
+                                accusantium, quis quasi porro perferendis sint quidem atque, temporibus magni! Itaque
+                                quaerat voluptate, commodi similique laudantium voluptatibus quo sint natus, sequi
+                                facilis rem magni, ipsam dolorem beatae <br>
+                                ✨Lorem ipsum dolor sit.<br>
+                                ✨Lorem ipsum dolor sit.
+                            </p>
+                        </div>
+
+                        <div>
+                            <img src="https://picsum.photos/id/237/600/400" class="img-fluid"
+                                style="width: 610px; max-height: 555px;">
+                        </div>
+                        <div class="px-3">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <img class="" src="https://static.licdn.com/aero-v1/sc/h/8ekq8gho1ruaf8i7f86vd1ftt"
+                                        alt="like" data-test-reactions-icon-type="LIKE"
+                                        data-test-reactions-icon-theme="light">
+                                    <img class="" src="https://static.licdn.com/aero-v1/sc/h/cpho5fghnpme8epox8rdcds22"
+                                        alt="love" data-test-reactions-icon-type="EMPATHY"
+                                        data-test-reactions-icon-theme="light">
+                                    <img class="" src="https://static.licdn.com/aero-v1/sc/h/b1dl5jk88euc7e9ri50xy5qo8"
+                                        alt="celebrate" data-test-reactions-icon-type="PRAISE"
+                                        data-test-reactions-icon-theme="light">
+                                    <a href="#" class="text-xxs pmr-linkedin-grey ">234.589</a>
+                                </div>
+                                <div class="text-xxs">
+                                    <a href="#" class="pmr-linkedin-grey">
+                                        4 yorum
+                                    </a>
+                                    <span class="pmr-linkedin-grey">&#8226;</span>
+                                    <a href="#" class="pmr-linkedin-grey">23 paylaşım</a>
+                                </div>
+
+                            </div>
+                            <hr class="m-0 mt-1">
+                            <div class="px-3 py-2">
+                                <div class="d-flex justify-content-around text-s">
+                                    <a href="#" class="pmr-linkedin-grey">
+                                        <i class="fa-regular fa-thumbs-up "></i>
+                                        <span class="text-xs">Beğen</span>
+                                    </a>
+                                    <a href="#" class="pmr-linkedin-grey">
+                                        <i class="fa-regular fa-comment-dots"></i>
+                                        <span class="text-xs">Yorum</span>
+                                    </a>
+                                    <a href="#" class="pmr-linkedin-grey">
+                                        <i class="fa-solid fa-retweet"></i>
+                                        <span class="text-xs">Paylaş</span>
+                                    </a>
+                                    <a href="#" class="pmr-linkedin-grey">
+                                        <i class="fa-solid fa-paper-plane"></i>
+                                        <span class="text-xs">Gönder</span>
+                                    </a>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="bg-white rounded-3 border-light-linkedin mb-2">
+                        <div class="d-flex px-3 pt-3 pb-2">
+                            <img src="https://picsum.photos/seed/picsum/200/300" class="rounded-circle img-fluid"
+                                style="width: 48px; height: 48px;">
+                            <a href="#" class="ps-2 flex-grow-1">
+                                <div class="d-flex flex-column">
+                                    <div class="text-xxs">
+                                        <span class="text-xs fw-300">Elif Yılmaz</span>
+                                        <span class="text-xs pmr-linkedin-grey">&#8226;</span>
+                                        <span class="text-xs pmr-linkedin-grey">1.</span>
+                                    </div>
+                                    <span class="text-xxs pmr-linkedin-grey">Product Owner | AI Strategist</span>
+                                    <div class="text-xxs">
+                                        <span class="pmr-linkedin-grey">5 gün</span>
+                                        <span class="pmr-linkedin-grey">&#8226;</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <div>
+                                <button class="border-0 bg-transparent">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                        data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24"
+                                        height="24" focusable="false">
+                                        <path
+                                            d="M14 12a2 2 0 11-2-2 2 2 0 012 2zM4 10a2 2 0 102 2 2 2 0 00-2-2zm16 0a2 2 0 102 2 2 2 0 00-2-2z">
+                                        </path>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="px-3">
+                            <p class="text-xs">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti quam eum repellat
+                                sit. Doloribus placeat cumque tenetur rem quaerat cupiditate dolore perspiciatis
+                                accusantium, quis quasi porro perferendis sint quidem atque, temporibus magni! Itaque
+                                quaerat voluptate, commodi similique laudantium voluptatibus quo sint natus, sequi
+                                facilis rem magni, ipsam dolorem beatae <br>
+                                ✨Lorem ipsum dolor sit.<br>
+                                ✨Lorem ipsum dolor sit.
+                            </p>
+                        </div>
+
+                        <div>
+                            <img src="https://picsum.photos/id/237/600/400" class="img-fluid"
+                                style="width: 610px; max-height: 555px;">
+                        </div>
+                        <div class="px-3">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <img class="" src="https://static.licdn.com/aero-v1/sc/h/8ekq8gho1ruaf8i7f86vd1ftt"
+                                        alt="like" data-test-reactions-icon-type="LIKE"
+                                        data-test-reactions-icon-theme="light">
+                                    <img class="" src="https://static.licdn.com/aero-v1/sc/h/cpho5fghnpme8epox8rdcds22"
+                                        alt="love" data-test-reactions-icon-type="EMPATHY"
+                                        data-test-reactions-icon-theme="light">
+                                    <img class="" src="https://static.licdn.com/aero-v1/sc/h/b1dl5jk88euc7e9ri50xy5qo8"
+                                        alt="celebrate" data-test-reactions-icon-type="PRAISE"
+                                        data-test-reactions-icon-theme="light">
+                                    <a href="#" class="text-xxs pmr-linkedin-grey ">234.589</a>
+                                </div>
+                                <div class="text-xxs">
+                                    <a href="#" class="pmr-linkedin-grey">
+                                        4 yorum
+                                    </a>
+                                    <span class="pmr-linkedin-grey">&#8226;</span>
+                                    <a href="#" class="pmr-linkedin-grey">23 paylaşım</a>
+                                </div>
+
+                            </div>
+                            <hr class="m-0 mt-1">
+                            <div class="px-3 py-2">
+                                <div class="d-flex justify-content-around text-s">
+                                    <a href="#" class="pmr-linkedin-grey">
+                                        <i class="fa-regular fa-thumbs-up "></i>
+                                        <span class="text-xs">Beğen</span>
+                                    </a>
+                                    <a href="#" class="pmr-linkedin-grey">
+                                        <i class="fa-regular fa-comment-dots"></i>
+                                        <span class="text-xs">Yorum</span>
+                                    </a>
+                                    <a href="#" class="pmr-linkedin-grey">
+                                        <i class="fa-solid fa-retweet"></i>
+                                        <span class="text-xs">Paylaş</span>
+                                    </a>
+                                    <a href="#" class="pmr-linkedin-grey">
+                                        <i class="fa-solid fa-paper-plane"></i>
+                                        <span class="text-xs">Gönder</span>
+                                    </a>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="bg-white rounded-3 border-light-linkedin mb-2">
+                        <div class="d-flex px-3 pt-3 pb-2">
+                            <img src="https://picsum.photos/seed/picsum/200/300" class="rounded-circle img-fluid"
+                                style="width: 48px; height: 48px;">
+                            <a href="#" class="ps-2 flex-grow-1">
+                                <div class="d-flex flex-column">
+                                    <div class="text-xxs">
+                                        <span class="text-xs fw-300">Elif Yılmaz</span>
+                                        <span class="text-xs pmr-linkedin-grey">&#8226;</span>
+                                        <span class="text-xs pmr-linkedin-grey">1.</span>
+                                    </div>
+                                    <span class="text-xxs pmr-linkedin-grey">Product Owner | AI Strategist</span>
+                                    <div class="text-xxs">
+                                        <span class="pmr-linkedin-grey">5 gün</span>
+                                        <span class="pmr-linkedin-grey">&#8226;</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <div>
+                                <button class="border-0 bg-transparent">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                        data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24"
+                                        height="24" focusable="false">
+                                        <path
+                                            d="M14 12a2 2 0 11-2-2 2 2 0 012 2zM4 10a2 2 0 102 2 2 2 0 00-2-2zm16 0a2 2 0 102 2 2 2 0 00-2-2z">
+                                        </path>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="px-3">
+                            <p class="text-xs">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti quam eum repellat
+                                sit. Doloribus placeat cumque tenetur rem quaerat cupiditate dolore perspiciatis
+                                accusantium, quis quasi porro perferendis sint quidem atque, temporibus magni! Itaque
+                                quaerat voluptate, commodi similique laudantium voluptatibus quo sint natus, sequi
+                                facilis rem magni, ipsam dolorem beatae <br>
+                                ✨Lorem ipsum dolor sit.<br>
+                                ✨Lorem ipsum dolor sit.
+                            </p>
+                        </div>
+
+                        <div>
+                            <img src="https://picsum.photos/id/237/600/400" class="img-fluid"
+                                style="width: 610px; max-height: 555px;">
+                        </div>
+                        <div class="px-3">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <img class="" src="https://static.licdn.com/aero-v1/sc/h/8ekq8gho1ruaf8i7f86vd1ftt"
+                                        alt="like" data-test-reactions-icon-type="LIKE"
+                                        data-test-reactions-icon-theme="light">
+                                    <img class="" src="https://static.licdn.com/aero-v1/sc/h/cpho5fghnpme8epox8rdcds22"
+                                        alt="love" data-test-reactions-icon-type="EMPATHY"
+                                        data-test-reactions-icon-theme="light">
+                                    <img class="" src="https://static.licdn.com/aero-v1/sc/h/b1dl5jk88euc7e9ri50xy5qo8"
+                                        alt="celebrate" data-test-reactions-icon-type="PRAISE"
+                                        data-test-reactions-icon-theme="light">
+                                    <a href="#" class="text-xxs pmr-linkedin-grey ">234.589</a>
+                                </div>
+                                <div class="text-xxs">
+                                    <a href="#" class="pmr-linkedin-grey">
+                                        4 yorum
+                                    </a>
+                                    <span class="pmr-linkedin-grey">&#8226;</span>
+                                    <a href="#" class="pmr-linkedin-grey">23 paylaşım</a>
+                                </div>
+
+                            </div>
+                            <hr class="m-0 mt-1">
+                            <div class="px-3 py-2">
+                                <div class="d-flex justify-content-around text-s">
+                                    <a href="#" class="pmr-linkedin-grey">
+                                        <i class="fa-regular fa-thumbs-up "></i>
+                                        <span class="text-xs">Beğen</span>
+                                    </a>
+                                    <a href="#" class="pmr-linkedin-grey">
+                                        <i class="fa-regular fa-comment-dots"></i>
+                                        <span class="text-xs">Yorum</span>
+                                    </a>
+                                    <a href="#" class="pmr-linkedin-grey">
+                                        <i class="fa-solid fa-retweet"></i>
+                                        <span class="text-xs">Paylaş</span>
+                                    </a>
+                                    <a href="#" class="pmr-linkedin-grey">
+                                        <i class="fa-solid fa-paper-plane"></i>
+                                        <span class="text-xs">Gönder</span>
+                                    </a>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="bg-white rounded-3 border-light-linkedin mb-2">
+                        <div class="d-flex px-3 pt-3 pb-2">
+                            <img src="https://picsum.photos/seed/picsum/200/300" class="rounded-circle img-fluid"
+                                style="width: 48px; height: 48px;">
+                            <a href="#" class="ps-2 flex-grow-1">
+                                <div class="d-flex flex-column">
+                                    <div class="text-xxs">
+                                        <span class="text-xs fw-300">Elif Yılmaz</span>
+                                        <span class="text-xs pmr-linkedin-grey">&#8226;</span>
+                                        <span class="text-xs pmr-linkedin-grey">1.</span>
+                                    </div>
+                                    <span class="text-xxs pmr-linkedin-grey">Product Owner | AI Strategist</span>
+                                    <div class="text-xxs">
+                                        <span class="pmr-linkedin-grey">5 gün</span>
+                                        <span class="pmr-linkedin-grey">&#8226;</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <div>
+                                <button class="border-0 bg-transparent">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                        data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24"
+                                        height="24" focusable="false">
+                                        <path
+                                            d="M14 12a2 2 0 11-2-2 2 2 0 012 2zM4 10a2 2 0 102 2 2 2 0 00-2-2zm16 0a2 2 0 102 2 2 2 0 00-2-2z">
+                                        </path>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="px-3">
+                            <p class="text-xs">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti quam eum repellat
+                                sit. Doloribus placeat cumque tenetur rem quaerat cupiditate dolore perspiciatis
+                                accusantium, quis quasi porro perferendis sint quidem atque, temporibus magni! Itaque
+                                quaerat voluptate, commodi similique laudantium voluptatibus quo sint natus, sequi
+                                facilis rem magni, ipsam dolorem beatae <br>
+                                ✨Lorem ipsum dolor sit.<br>
+                                ✨Lorem ipsum dolor sit.
+                            </p>
+                        </div>
+
+                        <div>
+                            <img src="https://picsum.photos/id/237/600/400" class="img-fluid"
+                                style="width: 610px; max-height: 555px;">
+                        </div>
+                        <div class="px-3">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <img class="" src="https://static.licdn.com/aero-v1/sc/h/8ekq8gho1ruaf8i7f86vd1ftt"
+                                        alt="like" data-test-reactions-icon-type="LIKE"
+                                        data-test-reactions-icon-theme="light">
+                                    <img class="" src="https://static.licdn.com/aero-v1/sc/h/cpho5fghnpme8epox8rdcds22"
+                                        alt="love" data-test-reactions-icon-type="EMPATHY"
+                                        data-test-reactions-icon-theme="light">
+                                    <img class="" src="https://static.licdn.com/aero-v1/sc/h/b1dl5jk88euc7e9ri50xy5qo8"
+                                        alt="celebrate" data-test-reactions-icon-type="PRAISE"
+                                        data-test-reactions-icon-theme="light">
+                                    <a href="#" class="text-xxs pmr-linkedin-grey ">234.589</a>
+                                </div>
+                                <div class="text-xxs">
+                                    <a href="#" class="pmr-linkedin-grey">
+                                        4 yorum
+                                    </a>
+                                    <span class="pmr-linkedin-grey">&#8226;</span>
+                                    <a href="#" class="pmr-linkedin-grey">23 paylaşım</a>
+                                </div>
+
+                            </div>
+                            <hr class="m-0 mt-1">
+                            <div class="px-3 py-2">
+                                <div class="d-flex justify-content-around text-s">
+                                    <a href="#" class="pmr-linkedin-grey">
+                                        <i class="fa-regular fa-thumbs-up "></i>
+                                        <span class="text-xs">Beğen</span>
+                                    </a>
+                                    <a href="#" class="pmr-linkedin-grey">
+                                        <i class="fa-regular fa-comment-dots"></i>
+                                        <span class="text-xs">Yorum</span>
+                                    </a>
+                                    <a href="#" class="pmr-linkedin-grey">
+                                        <i class="fa-solid fa-retweet"></i>
+                                        <span class="text-xs">Paylaş</span>
+                                    </a>
+                                    <a href="#" class="pmr-linkedin-grey">
+                                        <i class="fa-solid fa-paper-plane"></i>
+                                        <span class="text-xs">Gönder</span>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
                 </div>
 
 
-                <div class="col-6"></div>
-                <div class="col-3"></div>
-            </div>
+                <div class="col-3">
+                    <aside class="d-none d-md-block bg-white px-3 py-2 rounded-3 position-sticky">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="fw-300">Akışınıza ekleyin</span>
+                            <i class="fa-solid fa-circle-info"></i>
+                        </div>
 
+                        <div class=" mt-2">
+                            <div class="d-flex">
+                                <img src="assets/ducati.png" class="rounded-circle" style="width: 48px; height: 48px;">
+                                <a class="ms-2">
+                                    <div class="d-flex flex-column">
+                                        <span class="fw-300 text-xs">Ducati Motor Holding</span>
+                                        <span class="text-xxs pmr-linkedin-grey">Motorlu Taşıt İmalatı</span>
+                                        <div class="mt-1">
+                                            <button class="bg-transparent rounded-pill pmr-linkedin-grey px-3">
+                                                <i class="fa-solid fa-plus"></i>
+                                                Takip et
+                                            </button>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class=" mt-2">
+                            <div class="d-flex">
+                                <img src="assets/kawasaki.png" class="rounded-circle"
+                                    style="width: 48px; height: 48px;">
+                                <a class="ms-2">
+                                    <div class="d-flex flex-column">
+                                        <span class="fw-300 text-xs">Kawasaki</span>
+                                        <span class="text-xxs pmr-linkedin-grey">Motorlu Taşıt İmalatı</span>
+                                        <div class="mt-1">
+                                            <button class="bg-transparent rounded-pill pmr-linkedin-grey px-3">
+                                                <i class="fa-solid fa-plus"></i>
+                                                Takip et
+                                            </button>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class=" mt-2">
+                            <div class="d-flex">
+                                <img src="assets/yamaha.png" class="rounded-circle" style="width: 48px; height: 48px;">
+                                <a class="ms-2">
+                                    <div class="d-flex flex-column">
+                                        <span class="fw-300 text-xs">Yamaha Motors Co.</span>
+                                        <span class="text-xxs pmr-linkedin-grey">Motorlu Taşıt İmalatı</span>
+                                        <div class="mt-1">
+                                            <button class="bg-transparent rounded-pill pmr-linkedin-grey px-3">
+                                                <i class="fa-solid fa-plus"></i>
+                                                Takip et
+                                            </button>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="mt-2">
+                            <a href="#" class="text-xs fw-300 pmr-linkedin-grey">Tüm tavsiyeleri görüntüle <span
+                                    class="ms-1"><i class="fa-solid fa-arrow-right-long"></i></span></a>
+                        </div>
+                    </aside>
+
+                    <div class="position-sticky" style="top: 80px;">
+                        <div class="rounded-3 mt-3 border-light-linkedin-2">
+                            <a href="#">
+                                <img src="assets/ads.JPG" class="img-fluid rounded-3"
+                                    style="width: 100%; max-height: 300px;">
+                            </a>
+                        </div>
+
+                        <div class="p-3">
+                            <div class="d-flex flex-wrap justify-content-center text-xxs">
+                                <a href="#" class="pmr-linkedin-grey mx-2 mt-1">Hakkında</a>
+                                <a href="#" class="pmr-linkedin-grey mx-2 mt-1">Erişilebilirlik</a>
+                                <a href="#" class="pmr-linkedin-grey mx-2 mt-1">Yardım Merkezi</a>
+                                <a href="#" class="pmr-linkedin-grey mx-2 mt-1">Gizlilik ve Koşullar <span><i
+                                            class="fa-solid fa-caret-down"></i></span></a>
+                                <a href="#" class="pmr-linkedin-grey mx-2 mt-1">Reklam Tercihleri</a>
+                                <a href="#" class="pmr-linkedin-grey mx-2 mt-1">Reklam</a>
+                                <a href="#" class="pmr-linkedin-grey mx-2 mt-1">Ticari Hizmetler <span><i
+                                            class="fa-solid fa-caret-down"></i></span></a>
+                                <a href="#" class="pmr-linkedin-grey mx-2 mt-1">LinkedIn uygulamasını yükle</a>
+                                <a href="#" class="pmr-linkedin-grey mx-2 mt-1">Daha Fazla</a>
+                            </div>
+
+                            <div class="mt-2 text-center">
+                                <img src="assets/linkedin.svg" alt="">
+                                <span class="text-xxs">LinkedIn Corporation © 2023</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
         </div>
-        </div>
+
+        <section class="position-fixed" style="bottom: 0; right: 0;">
+            <div class="bg-white px-2 pt-2 shadow-lg me-2 border-light-linkedin-2" style="width: 290px; height: 47px; border-top-right-radius: 7px;border-top-left-radius: 7px;">
+                <a href="#" class="d-flex justify-content-between align-items-center">
+                    <div>
+                        <div class="d-flex align-items-center">
+                            <div class="position-relative">
+                                <img src="assets/pp.jpg" class="rounded-circle" style="width: 32px; height: 32px;">
+                                <span class="position-absolute" style="bottom: -8px; right: -1px;">
+                                    <i class="fa-solid fa-circle fa-2xs border-light" style="color: #01754f;"></i>
+                                </span>
+                            </div>
+                            <span class="text-xs fw-300 ms-2">Mesajlaşma</span>
+                        </div>
+                    </div>
+
+                    <div>
+                        <button class="bg-transparent border-0 me-2 pmr-linkedin-grey text-xs"><i class="fa-solid fa-ellipsis"></i></button>
+                        <button class="bg-transparent border-0 me-2 pmr-linkedin-grey text-xs"><i class="fa-solid fa-pen-to-square"></i></button>
+                        <button class="bg-transparent border-0 me-2 pmr-linkedin-grey text-xs"><i class="fa-solid fa-chevron-up"></i></button>
+                    </div>
+
+                </a>
+
+            </div>
+        </section>
     </section>
+
 </body>
 
 </html>
